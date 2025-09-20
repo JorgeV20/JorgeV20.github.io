@@ -1,0 +1,17 @@
+#intro {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 0px;
+    background: white;
+    font-weight: 400;
+    color: blue;
+    padding: 0rem 5.6rem;
+    margin-bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
