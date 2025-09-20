@@ -1,10 +1,18 @@
 .section {
-  min-height: 100vh; /* or height: 100vh */
+  min-height: 100vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   font-weight: 400;
   color: black;
   padding: 0 5.6rem;
+  border-bottom: 0px;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 }
 
 #intro {
