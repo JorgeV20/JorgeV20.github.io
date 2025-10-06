@@ -11,7 +11,7 @@
 
 
 .footer {
-  background-color: darkgrey;
+  background-color: black;
   color: white;
   padding: 4.8rem 0;
 }
@@ -22,4 +22,24 @@
 
 #about {
   background: #EAE4D5;
+}
+
+
+.card-title {
+  font-weight: bold;
+}
+
+.social-links {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #007bff; /* Bootstrap primary color */
 }
