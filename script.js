@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalDesc = document.getElementById('modal-desc');
     const modalTags = document.getElementById('modal-tags');
     const closeBtn = document.querySelector('.close-btn');
-    const cards = document.querySelectorAll('.card');
+    const cards = document.querySelectorAll('#projects .card');
 
     if (!modal) console.error("❌ ERROR: Could not find the modal in your HTML! Make sure the <div id='project-modal'> exists.");
 

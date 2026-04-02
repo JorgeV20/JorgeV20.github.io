@@ -281,6 +281,6 @@ footer {
 }
 
 /* Make project cards look clickable */
-.card {
+#projects .card {
     cursor: pointer;
 }
